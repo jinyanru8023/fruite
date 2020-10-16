@@ -3,8 +3,9 @@ const html = require('gulp-html');
 const cssnano = require('gulp-cssnano');
 const rename = require('gulp-rename');
 // const uglify = require('gulp-uglify');
-// const imgmin = require('gulp-imgagemin');
+const imgmin = require('gulp-imagemin');
 const sass= require('gulp-sass');
+
 function fnCopyIndex(){
     return gulp.src('./src/index.html')
     .pipe(gulp.dest('./dist'));
@@ -15,5 +16,12 @@ function fnCss(){
     .pipe(rename({suffix : '.min'}))
     .pipe(gulp.dest('./dist/css'));
 }
+
+function fnImg(){
+    return gulp.src('./src/img/*')
+    .pipe(imgmin())
+    .pipe(gulp.dest('./dist/img'));
+}
 exports.copyIndex = fnCopyIndex;
 exports.css = fnCss;
+exports.img = fnImg;
