@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const html = require('gulp-html');
 const cssnano = require('gulp-cssnano');
 const rename = require('gulp-rename');
-// const uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify');
 const imgmin = require('gulp-imagemin');
 const sass= require('gulp-sass');
 
@@ -22,6 +22,13 @@ function fnImg(){
     .pipe(imgmin())
     .pipe(gulp.dest('./dist/img'));
 }
+
+function fnWatch(){
+ gulp.watch('./src/index.html',fnCopyIndex);
+ gulp.watch('./src/sass/*.scss',fnCss);
+ gulp.watch('./src/img/*',fnImg);
+}
 exports.copyIndex = fnCopyIndex;
 exports.css = fnCss;
 exports.img = fnImg;
+exports.default = fnWatch;
