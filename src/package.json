@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0"
-  }
-}

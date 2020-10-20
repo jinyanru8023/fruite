@@ -1,0 +1,194 @@
+@import 'public';
+.header{
+    width: 100%;
+    .header1{
+        width: 1200px;
+        height: 70px;
+        margin: auto;
+        background: #eeeeee;
+        display: flex;
+        .logo{
+            
+            width: 1200px;
+            margin-top: 13px;
+            display: flex;
+        }
+        p{
+            
+            font-size:30px ;
+           
+            height: 70px;
+           line-height:70px ;
+            color: green;
+            margin-left: 28px;
+            
+        }
+    }
+}
+// logmain
+.logmain{
+    width: 100%;
+    .logmain1{
+        width: 1200px;
+        height: 453px;
+        margin: auto;
+        
+        .logmain2{
+            width: 350px;
+            height: 443px;
+            border: 1px solid gray;
+            margin-top: 32px;
+            float: right;
+            #fr{
+                padding-top: 57px;
+                padding-left: 10px;
+                
+                #fr1{
+                    float: right;
+                    a{
+                        color:green;
+                    }
+                }
+                #fr2{
+                    padding-top: 20px;
+                      #fr22{
+                   display:block ;
+                   width:265px ;
+                   height: 37px;
+                   margin-left: 46px;
+                   
+                }
+                span{
+                    display: block;
+                     width: 38px;
+                     height: 40px;
+                     position: absolute;
+                     right: 368px;
+                     border: 1px solid gray;
+                     background: url(../img/bg_input.png);
+                     background-position: -77px 111px;
+                    }
+                }
+                
+                #fr3{
+                    padding-top: 20px;
+                      #fr33{
+                   display:block ;
+                   width:265px ;
+                   height: 37px;
+                   margin-left: 46px;
+                   
+                }
+                span{
+                    display: block;
+                     width: 38px;
+                     height: 40px;
+                     position: absolute;
+                     right: 368px;
+                     border: 1px solid gray;
+                     background: url(../img/bg_input.png);
+                     background-position: -77px 51px;
+                    }
+                }
+
+                #fr4{
+                    padding-top: 20px; 
+                    display: flex;
+                     img{
+                       display: block;
+                       width: 60px;
+                       height: 38px;
+                      
+                   }
+                   a{
+                       padding-top: 8px;
+                   }
+                      #fr44{
+                   display:block ;
+                   width:132px ;
+                   height: 37px;
+                   margin-left: 46px;
+                 
+                   
+                }
+                span{
+                    display: block;
+                     width: 38px;
+                     height: 40px;
+                     position: absolute;
+                     right: 368px;
+                     border: 1px solid gray;
+                     background: url(../img/bg_input.png);
+                     background-position: -77px 51px;
+                    }
+                }
+                #fr5{
+                    padding-top: 20px; 
+                    padding-left: 8px;
+                    input{
+                        width:10px ;
+                        height:10px ;
+                        border: 1px solid black;
+                    }
+                    a{
+                        padding-left: 126px;
+                    }
+                }
+                #fr6{
+                    padding-top: 20px; 
+                    padding-left: 8px;
+                    input{
+                        width: 311px;
+                        height:37px ;
+                        background: green;
+                        color: honeydew;
+                     
+                    }
+                }
+                #fr7{
+                    padding-top: 20px; 
+                    padding-left: 8px;
+                    
+                
+                    #fr71{
+                        width: 311px;
+                        height: 20px;
+                        margin-left: 2px;
+                        float: left;
+                    }
+                    #fr72{
+                        margin-top: 18px;
+                        float: left;
+                        display: block;
+                        width: 76px;
+                        height: 20px;
+                        background: url(../img/bg_login.png);
+                        background-position:-79px -199px;
+                    }
+                    #fr73{
+                        margin-top: 18px;
+                        float: left;
+                        display: block;
+                        width: 89px;
+                        height: 20px;
+                        background: url(../img/bg_login.png);
+                        background-position:-161px -199px;
+                        margin-left: 20px;
+
+                    }
+                    #fr74{
+                        margin-top: 18px;
+                        float: left;
+                        display: block;
+                        width: 76px;
+                        height: 20px;
+                        background: url(../img/bg_login.png);
+                        background-position:-258px -199px;
+                        margin-left: 20px;
+
+                    }
+                }
+            }
+        }
+    }
+}

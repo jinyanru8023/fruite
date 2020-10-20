@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>list1</title>
+    <link rel="stylesheet" href="../../dist/css/list1.min.css">
+    <script src="../../dist/js/jquery-1.12.4.min .min.js"></script>
+    <script src="../../dist/js/index .min.js"></script>
+</head>
+
+<body>
+    <div class="tit">
+        <div class="tit1">
+            <div class="tit2">
+                欢迎光临易生果鲜
+            </div>
+            <div class="tit3">
+                <a>配送至 : 太原市</a>
+            </div>
+            <div class="tit4">
+                <img src="../img/notice.png" alt="">
+                <span>网警提示</span>
+            </div>
+            <ul class="tit5">
+                <li class="g1"> <a href="">[登录]</a></li>
+                <li class="g1"><a href="">[注册]</a></li>
+                <li class="myyiguo">
+                    <div class="my"><a href=""><i></i>我的易果</a></div>
+                    <div class="con">
+                        <a rel="nofollow" href="">我的订单</a>
+                        <a rel="nofollow" href="">我的优惠券<b id="coupon"></b></a>
+                        <a rel="nofollow" href="">我的收藏</a>
+                        <a rel="nofollow" href="">我的悠币</a>
+                        <a rel="nofollow" href="">我的退换货</a>
+                        <a rel="nofollow" href="">预存款查询</a>
+                        <a rel="nofollow" href="">立即充值</a>
+
+                    </div>
+                </li>
+                <li class="fe">
+                    <div class="guo"><a>手机易果<s></s></a></div>
+                    <div class="ite">
+                        <div class="item"><img src="../img/qrcode_app.jpg" width="100" height="100"><span>扫一扫下载APP</span>
+                        </div>
+                        <div class="item"><img src="../img/qrcode_wechat.jpg" width="100" height="100"><span>易果生鲜微信</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="fe1">
+                    <div class="pho"><a>礼品绑定<s></s></a></div>
+                </li>
+                <li class="fe2">
+                    <div class="pho1"><a>礼品兑换券入口<s></s></a></div>
+                </li>
+                <li class="fe3">
+                    <div class="pho2"><a>营业资质<s></s></a></div>
+                </li>
+                <li class="fe4">
+                    <div class="pho3"><a>人才招聘<s></s></a></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="header1">
+            <div class="logo">
+                <img src="../img/logo.png">
+            </div>
+            <div class="search">
+                <div class="search-b">
+                    <input type="text" value="输入商品名/编号/拼音" class="search-input" onfocus="if(this.value == '输入商品名／编号／拼音'){this.value = '';this.style.color = '#000'}" onblur="if (this.value == '') {this.value = '输入商品名／编号／拼音';this.style.color = '#999';}" style="color: rgb(153, 153, 153);">
+                    <input class="search-btn" type="submit" value="搜索">
+                </div>
+                <div class="search-keywords">
+                    <a href="#">谷寺</a>
+                    <a href="#">奇异果</a>
+                    <a href="#">甲基糠</a>
+                    <a href="#">贝类</a>
+                </div>
+            </div>
+            <div class="cart">
+                <span><b>0</b></span>
+                <b class="l">0.0</b>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner1">
+
+            <div class="Top">
+                <div class="NavMenu">
+                    <p>全部产品</p>
+                    <div class="Navs">
+                        <p><a href="#">新品专区</a></p>
+                        <p><a href="#"> 新品专区</a></p>
+                        <p><a href="#"> 新品专区</a></p>
+                    </div>
+                    <div class="SubMenu">
+                        <ul>
+                            <!--产品-->
+                            <li class="arrow">
+                                <a href="#">产品</a>
+                                <ul>
+                                    <li class="arrow">
+                                        <a href="#">基础</a>
+
+                                    </li>
+
+                                    <li><a href="#">大数据</a></li>
+                                    <li><a href="#">基础</a></li>
+                                    <li><a href="#">人工智能</a></li>
+                                    <li><a href="#">企业应用</a></li>
+                                    <li><a href="#">行业应用</a></li>
+                                    <li><a href="#">开发者服务</a></li>
+                                </ul>
+                            </li>
+                            <!--产品 End-->
+                            <li class="arrow">
+                                <a href="#">解决方案</a>
+                                <ul>
+                                    <li class="arrow">
+                                        <a href="#">通用解决方案</a>
+
+                                    </li>
+                                    <li><a href="#">行业解决方案</a></li>
+                                    <li><a href="#">云智大数据与 AI</a></li>
+                                    <li><a href="#">区块链解决方案</a></li>
+                                    <li><a href="#">教育解决方案</a></li>
+                                    <li><a href="#">物联网解决方案</a></li>
+                                    <li><a href="#">微信解决方案</a></li>
+                                    <li><a href="#">音视频解决方案</a></li>
+                                    <li><a href="#">安全与运维</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="ban">
+        <div class="ban1">
+
+        </div>
+    </div>
+    <!-- //当季精选 -->
+<div class="select">
+    <div class="select1">
+        <div class="se"></div>
+        <div class="product">
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+        </div>
+
+
+        <div class="product">
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+            <div class="product_1">
+                <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+                <div class="name">
+                    新疆西梅400g
+                </div>
+                <div class="price">
+                    ￥<strong>38.0</strong> 
+                    <a href="#">►到货中</a>
+                </div>
+               
+            </div>
+
+
+        </div>
+    </div>
+<!-- // -->
+<div class="select1">
+    <div class="se"></div>
+    <div class="product">
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <div class="product">
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+
+        
+    </div>
+</div>
+<!-- // -->
+<div class="select1">
+    <div class="se"></div>
+    <div class="product">
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <div class="product">
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+        <div class="product_1">
+            <a href="../../dist/pages/cart.html"><img src="../img/9288738743101189_300.jpg" alt=""></a>
+            <div class="name">
+                新疆西梅400g
+            </div>
+            <div class="price">
+                ￥<strong>38.0</strong> 
+                <a href="#">►到货中</a>
+            </div>
+           
+        </div>
+
+        
+    </div>
+</div>
+</div>
+
+
+    <!-- //全球精选 -->
+    <div class="global">
+        <div class="global1">
+            <div class="gol">
+                <ul>
+                    <li class="sevn">
+                        <div class="imga"></div>
+                        <b>全球精选</b>
+                        <span>一站式生鲜购物方案</span>
+                    </li>
+                    <li class="sevn">
+                        <div class="imga"></div>
+                        <b>全球精选</b>
+                        <span>一站式生鲜购物方案</span>
+                    </li>
+                    <li class="sevn">
+                        <div class="imga"></div>
+                        <b>全球精选</b>
+                        <span>一站式生鲜购物方案</span>
+                    </li>
+                    <li class="sevn">
+                        <div class="imga"></div>
+                        <b>全球精选</b>
+                        <span>一站式生鲜购物方案</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer1">
+            <div class="col">
+                <dl class="col1">
+                    <dt>新手指南</dt>
+                    <dd>
+                        <p><a href="#" a>账号注册</a></p>
+                        <p><a href="#">购物流程</a></p>
+                        <p><a href="#">订单方式</a></p>
+                        <p><a href="#">悠币说明书</a></p>
+                        <p><a href="#">会员等级</a></p>
+                    </dd>
+                </dl>
+                <dl class="col2">
+                    <dt>付款方式</dt>
+                    <dd>
+                        <p><a href="#">账号注册</a></p>
+                        <p><a href="#">购物流程</a></p>
+                        <p><a href="#">订单方式</a></p>
+                        <p><a href="#">悠币说明书</a></p>
+                        <p><a href="#">会员等级</a></p>
+                    </dd>
+                </dl>
+                <dl class="col3">
+                    <dt>配送方式</dt>
+                    <dd>
+                        <p><a href="#">账号注册</a></p>
+                        <p><a href="#">购物流程</a></p>
+                        <p><a href="#">订单方式</a></p>
+                        <p><a href="#">悠币说明书</a></p>
+                        <p><a href="#">会员等级</a></p>
+                    </dd>
+                </dl>
+                <dl class="col4">
+                    <dt>售后服务</dt>
+                    <dd>
+                        <p><a href="#">账号注册</a></p>
+                        <p><a href="#">购物流程</a></p>
+                        <p><a href="#">订单方式</a></p>
+                        <p><a href="#">悠币说明书</a></p>
+                        <p><a href="#">会员等级</a></p>
+                    </dd>
+                </dl>
+                <dl class="col5">
+                    <dt>关于我们</dt>
+                    <dd>
+                        <p><a href="#">账号注册</a></p>
+                        <p><a href="#">购物流程</a></p>
+                        <p><a href="#">订单方式</a></p>
+                        <p><a href="#">悠币说明书</a></p>
+                        <p><a href="#">会员等级</a></p>
+                    </dd>
+                </dl>
+
+
+            </div>
+
+            <div class="copyrigh">
+                <div class="servet">
+                    <span>客服热线 021-62388646 企业采购或团购，请转2号键咨询</span>
+                    <span>周一至周日 9:00-21:00</span>
+                </div>
+                <p>所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+                <a href="#" class="icp">沪ICP备09008015号</a>Copyright©2005-2020<br>
+                <a href="#" class="wxb">
+                    <img src="../img/wxb.png" alt="">
+                </a>
+                <a href="#" class="wxb1">
+                    <img src="../img/153685368061665897_121x29.png" alt="">
+                </a>
+                <a href="#" id="wxbbb">
+                    <img src="../img/footer_copy.jpg" alt="">
+                </a>
+                <a href="#" id="wxbc">
+                    <img src="../img/footer_copy.jpg" alt="">
+                </a>
+                <div class="wwd">
+                    <img src="../img/ghs.png" alt="" class="wxb3">
+
+                    <span class="hu">沪公网安备 31010502000002号</span>
+                </div>
+                <p class="unable">违法和不良信息举报电话 021-62388646</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
